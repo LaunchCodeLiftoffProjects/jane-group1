@@ -4,234 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e21065d7-ff24-441d-8860-9be76b604e89" name="Changes" comment="All I've worked on. Authentication, Persistence, &#10;some html. It's SQL ready and the tables are made.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/bootRunMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Controllers/ApiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Controllers/AuthenticationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Controllers/FiveHController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/Controllers/FiveHController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/Controllers/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Controllers/IngController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/Controllers/IngController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Controllers/RecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/Controllers/RecipeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Controllers/SearchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/API.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/AbstractEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/AuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/Ingredient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/Recipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/WebApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/data/IngredientRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/data/RecipeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/data/SearchRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/data/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/dto/LoginFormDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/classes/java/main/org/example/Models/dto/RegisterFormDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/static/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/static/eva.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/static/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/addingredients.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/addrecipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/fiveheartbeats.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fiveheartbeats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/fragments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/resources/main/templates/view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/images/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/images/desktop.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/images/food1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/images/food1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/images/food2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/images/food2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/images/food3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/images/food3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/images/food4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/images/food4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/images/food5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/images/food5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/images/foodtest.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/images/foodtest.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Controllers/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Controllers/AuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Controllers/FiveHController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/FiveHController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Controllers/IngController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/IngController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Controllers/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/RecipeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Controllers/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/API.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/AbstractEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/AuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/Ingredient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/Recipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/WebApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/data/IngredientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/data/RecipeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/data/SearchRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/data/SearchRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/data/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/dto/LoginFormDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/java/org/example/Models/dto/RegisterFormDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/static/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/static/eva.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/static/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/addingredients.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/addrecipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/fiveheartbeats.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fiveheartbeats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/fragments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrocerEZ - Copy/src/main/resources/templates/view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Models/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/Models/Ingredient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Models/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/Models/Recipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/eva.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/eva.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/addingredients.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/addingredients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/addrecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/addrecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/7.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/workspace-id.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.gradle/workspace-id.txt.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/GrocerEZ.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/bootRunMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Controllers/ApiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Controllers/AuthenticationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Controllers/SearchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/API.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/AbstractEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/AuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/Ingredient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/Recipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/WebApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/data/IngredientRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/data/RecipeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/data/SearchRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/data/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/dto/LoginFormDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/classes/java/main/org/example/Models/dto/RegisterFormDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/static/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/static/eva.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/eva.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/static/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/templates/addingredients.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/templates/addrecipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/templates/api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/templates/fragments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/templates/results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/templates/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/resources/main/templates/view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Controllers/AuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/AbstractEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/AuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/Ingredient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/Recipe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/WebApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/data/IngredientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/data/RecipeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/data/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/dto/LoginFormDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/java/org/example/Models/dto/RegisterFormDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/resources/static/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/resources/static/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/resources/templates/addingredients.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/resources/templates/addrecipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/resources/templates/fragments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jane-group1/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/WebApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/WebApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/data/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/data/IngredientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/data/RecipeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/data/RecipeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/data/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/dto/LoginFormDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/dto/LoginFormDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/dto/RegisterFormDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/dto/RegisterFormDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addingredients.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addingredients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addrecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addrecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/view.html" afterDir="false" />
-    </list>
+    <list default="true" id="e21065d7-ff24-441d-8860-9be76b604e89" name="Changes" comment="All I've worked on. Authentication, Persistence, &#10;some html. It's SQL ready and the tables are made." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -257,14 +30,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectId" id="21w70lUkNZkMiKOnlk6UwM4wfju" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GrocerEZ - Copy" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1388889" />
