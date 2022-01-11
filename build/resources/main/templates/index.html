@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org/">
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head th:replace="fragments :: head">
+    <link rel="stylesheet" href="eva.css">
+
 </head>
 <body>
+
 
 <div th:replace="fragments :: page-header"></div>
 
 <div class="container body-content">
-    <h2>TechJobs</h2>
-    <ul>
-        <li th:each="job : ${jobs}">
-            <a th:href="@{'/view/' + ${job.id}}" th:text="${job.name}"></a>
-        </li>
-    </ul>
-
+    <h1>GrocerEZ!</h1>
+    <h2> Welcome to GrocerEZ</h2>
+    <p>You can do anything...at GrocerEZ</p>
+    <p>Welcome...to GrocerEZ. Welcome</p>
+    <p>The unattainable is unknown...at GrocerEZ</p>
+    <p>At GrocerEZ, the infinite is possible...at GrocerEz</p>
+    <p> This is GrocerEZ and welcome, you who have come to GrocerEZ</p>
 </div>
 
 </body>

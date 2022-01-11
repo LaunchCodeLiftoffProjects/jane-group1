@@ -14,7 +14,6 @@ public class Recipe extends AbstractEntity{
 
    public Recipe() {}
 
-   public Recipe() {}
 
 
 }
