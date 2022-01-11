@@ -13,26 +13,15 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class HomeController {
 
-    @Autowired
-    private IngredientRepository ingredientRepository;
-    @Autowired
-    private RecipeRepository recipeRepository;
-    @Autowired
-    private SearchRepository searchRepository;
-    @Autowired
-    private UserRepository userRepository;
-
-    @GetMapping("/addingredients")
-
-
 
     @RequestMapping("")
-    public String index(Model model) {
-
-        model.addAttribute("title", "My Jobs");
-        model.addAttribute("jobs", jobRepository.findAll());
-
+    public String index() {
 
         return "index";
+}
+
+
+
+
 }
 
