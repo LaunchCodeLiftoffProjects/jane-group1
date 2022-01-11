@@ -28,3 +28,34 @@ public class Ingredient extends AbstractEntity {
     public Ingredient(){}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
