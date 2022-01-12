@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head">
+    <link rel="stylesheet" href="eva.css">
+
+</head>
+<body>
+
+
+<img src="/img/food1.jpg">
+<nav th:replace="fragments :: page-header"></nav>
+
+<h1>Add a Recipe</h1>
+
+
+<form th:action="@{/addingredients}" method = "post">
+    <input type="text" placeholder="Enter your ingredient!" name="ingredient" id="recipe.ingredient">
+
+
+    <input type="textarea" placeholder="Enter your Instructions!" name="instructions" id="recipe.instructions">
+
+</form>
+
+
+</body>
+</html>
+
+    <input type="submit" value="Store Your Recipe!" />
+</form>
+
+</body>
+</html>
