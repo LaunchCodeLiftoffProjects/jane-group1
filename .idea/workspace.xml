@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e21065d7-ff24-441d-8860-9be76b604e89" name="Changes" comment="All I've worked on. Authentication, Persistence, &#10;some html. It's SQL ready and the tables are made.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controllers/IngController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/IngController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/data/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/data/IngredientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/eva.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/eva.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addingredients.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addingredients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addrecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addrecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fiveheartbeats.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fiveheartbeats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
