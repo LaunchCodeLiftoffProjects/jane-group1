@@ -6,27 +6,36 @@
 </head>
 <body>
 
-<header th:replace="fragments :: head"></header>
+
 <img src="/img/food1.jpg">
 <nav th:replace="fragments :: page-header"></nav>
 
 <h1>Add a Recipe</h1>
 
 
-<form th:action="@{/addingredients}" method = "post">
-    <input type="text" placeholder="Enter your ingredient!" name="ingredient" id="recipe.ingredient">
+<form method = "post">
+
+    <div class="form-group">
+
+        <label>Name of Recipe
+            <input type="text" name>
+        </label>
+        <label>List of Ingredients
+            <input type="text" ingredients>
+        </label>
+        <label>Directions
+            <input type="text" directions>
+        </label>
+        <label>Preparation Time/Service Size
+            <input type="text" prep_time>
+        </label>
 
 
-    <input type="textarea" placeholder="Enter your Instructions!" name="instructions" id="recipe.instructions">
-
-</form>
-
-
-</body>
-</html>
-
+    </div>
     <input type="submit" value="Store Your Recipe!" />
+
 </form>
+
 
 </body>
 </html>
