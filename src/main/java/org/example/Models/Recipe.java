@@ -8,8 +8,6 @@ public class Recipe extends AbstractEntity{
 
    private String name;
 
-   private HashMap<Ingredient, Integer> ingredients = new HashMap<>();
-
    private String instructions;
 
    public Recipe() {}

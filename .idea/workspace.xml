@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21065d7-ff24-441d-8860-9be76b604e89" name="Changes" comment="All I've worked on. Authentication, Persistence, &#10;some html. It's SQL ready and the tables are made.">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fiveheartbeats.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fiveheartbeats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/images/food1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/food1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/images/food5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/food5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controllers/IngController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/IngController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Models/data/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Models/data/IngredientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/eva.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/eva.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addingredients.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addingredients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addrecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addrecipe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fiveheartbeats.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fiveheartbeats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
