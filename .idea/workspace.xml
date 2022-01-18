@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e21065d7-ff24-441d-8860-9be76b604e89" name="Changes" comment="All I've worked on. Authentication, Persistence, &#10;some html. It's SQL ready and the tables are made.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/register.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cc0ac0a7-29d6-40ca-acac-3aedcd4886a7" />
+        <option name="url" value="https://github.com/krisrehbein/liftoffproject.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
